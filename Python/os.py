@@ -3,7 +3,7 @@ import os
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 ###### Carpeta dataset #######
-location = "C:/Users/jrsol/OneDrive/Escritorio/Proyecto_parcial/dataset"
+location = "C:/Users/jrsol/OneDrive/Escritorio/Proyecto_final/dataset"
 
 ###### Validar si la carpeta existe ############
 if not os.path.exists(location):
