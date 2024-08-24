@@ -19,7 +19,7 @@ GO
 
 -- IMPORTAR DATA DESDE ARCHIVO
 BULK INSERT dbo.OLYMPICS
-FROM 'C:\Users\jrsol\OneDrive\Escritorio\Proyecto_parcial\dataset\Athens 2004 Olympics Nations Medals.csv'
+FROM 'C:\Users\jrsol\OneDrive\Escritorio\Proyecto_final\dataset\Athens 2004 Olympics Nations Medals.csv'
 WITH(
 	FIRSTROW = 2, --empieza desde la segunda linea, evitando la cabecera
 	FIELDTERMINATOR = ',', --el separados de las columnas
